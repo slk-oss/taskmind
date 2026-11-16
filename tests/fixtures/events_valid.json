@@ -1,0 +1,44 @@
+[
+  {
+    "schema_version": 1,
+    "event_id": "evt-001",
+    "timestamp": "2026-11-16T10:00:00Z",
+    "sequence_number": 1,
+    "user_id": "user-001",
+    "session_id": "session-001",
+    "case_id": "case-001",
+    "application": "demo_crm",
+    "event_type": "input",
+    "element_id": "client_id_input",
+    "element_text": "Client ID",
+    "result": "success"
+  },
+  {
+    "schema_version": 1,
+    "event_id": "evt-002",
+    "timestamp": "2026-11-16T10:00:03Z",
+    "sequence_number": 2,
+    "user_id": "user-001",
+    "session_id": "session-001",
+    "case_id": "case-001",
+    "application": "demo_crm",
+    "event_type": "click",
+    "element_id": "client_search_button",
+    "element_text": "Find client",
+    "result": "success"
+  },
+  {
+    "schema_version": 1,
+    "event_id": "evt-003",
+    "timestamp": "2026-11-16T10:00:06Z",
+    "sequence_number": 3,
+    "user_id": "user-001",
+    "session_id": "session-001",
+    "case_id": "case-001",
+    "application": "demo_crm",
+    "event_type": "navigate",
+    "element_id": "client_contracts_page",
+    "element_text": "Client contracts",
+    "result": "success"
+  }
+]
